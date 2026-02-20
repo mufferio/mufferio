@@ -32,5 +32,5 @@ Passionate builder and leader in software development, AI engineering, and cyber
        src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/>
 </p>
 
-### 👁 Istina — Coming Soon
+### 👁 Istina — CLI v0 Releasing Feb 22nd! Follow @istinaofficial on X for updates!
 *A new way to ensure bias-free news.*
