@@ -52,7 +52,7 @@ It ingests articles from live RSS feeds, evaluates them using external AI models
 The project serves as the **core prototype for a larger system** that will eventually expand into a full **web and mobile platform for narrative transparency**.
 
 🔗 **Repository:**  
-https://github.com/mufferio/istina_v0
+https://github.com/mufferio/istina
 
 <p align="center">
   <a href="https://github.com/mufferio/istina_v0">
