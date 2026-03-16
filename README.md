@@ -46,7 +46,7 @@ I am currently seeking opportunities where I can continue developing as a softwa
 
 ---
 
-# 👁 ISTINA — Conflict Intelligence Engine
+# 👁 ISTINA — Conflict Intelligence Engine (WAITLIST FOR v1 LAUNCHING SOON!)
 
 *A conflict-tracking and bias-aware news analysis system.*
 
@@ -57,12 +57,6 @@ The project serves as the **core prototype for a larger system** that will event
 
 🔗 **Repository:**  
 https://github.com/mufferio/istina
-
-<p align="center">
-  <a href="https://github.com/mufferio/istina_v0">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mufferio&repo=istina_v0&theme=tokyonight"/>
-  </a>
-</p>
 
 ---
 
