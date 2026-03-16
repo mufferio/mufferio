@@ -8,9 +8,13 @@
 
 **Computer Science & Finance @ UofT | Building ISTINA 👁**
 
-Passionate builder and leader in software development, AI engineering, and cybersecurity, driven to turn ideas into tools that make a real difference. From developing **Istina**, a platform designed to bring clarity to global conflicts, to leading innovative tech projects that empower teams to excel, I thrive at the intersection of **technology, analysis, and impact**.
+I am a Computer Science student at the University of Toronto with hands-on experience building production-grade software systems across startups, enterprise environments, and public-sector operations. My interests sit at the intersection of backend engineering, AI-driven systems, and security-focused software design.
 
-With a strong technical foundation and an entrepreneurial mindset, I’m committed to building systems that help people navigate complex information landscapes.
+I have worked as a Software Developer and Software Engineer in startup and business environments, where I built scalable backend services in Go and Python, implemented secure authentication workflows, integrated relational databases, and improved operational efficiency through automation. I enjoy working close to real systems where reliability, performance, and correctness matter.
+
+Beyond formal roles, I am the founder of Istina, a news bias analysis platform focused on applying APIs, natural language processing, and data visualization to improve clarity in global conflict reporting. This project reflects my entrepreneurial mindset and my interest in building technology that helps people make better-informed decisions.
+
+I am currently seeking opportunities where I can continue developing as a software engineer, contribute meaningfully to real-world systems, and grow alongside teams that value strong technical fundamentals, ownership, and impact.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/fahad-sadiq-khan" target="_blank">
