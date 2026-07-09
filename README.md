@@ -3,7 +3,7 @@
 # Fahad S. Khan
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00C566&center=true&vCenter=true&width=560&lines=Full-time+Software+Engineer+%40+Hadio;Founder+%26+CEO+%40+ISTINA+AI;try+at+istina.live;CS+%26+Finance+%40+University+of+Toronto" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00C566&center=true&vCenter=true&width=560&lines=Full-time+Software+Engineer+%40+Hadio;Founder+%26+CEO+%40+ISTINA+AI;CS+%26+Finance+%40+University+of+Toronto" alt="Typing SVG" />
 </a>
 
 <br/>
