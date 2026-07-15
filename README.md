@@ -15,7 +15,7 @@
 &nbsp;
 <a href="mailto:khan.fsadiq05@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
-<a href="https://tryistina.net"><img src="https://img.shields.io/badge/ISTINA-00C566?style=for-the-badge&logo=eye&logoColor=white" alt="ISTINA"/></a>
+<a href="https://istina.live"><img src="https://img.shields.io/badge/ISTINA-00C566?style=for-the-badge&logo=eye&logoColor=white" alt="ISTINA"/></a>
 
 </div>
 
@@ -115,7 +115,7 @@ By day I run the **development department at Hadio Friperie Vintage**, shipping 
 
 > An AI platform that ingests RSS feeds and analyzes **geopolitical news at the sentence level** — surfacing rhetorical bias, narrative framing, and conflicting claims across coverage of the same event, then turning that analysis into shareable content.
 
-🔗 **[tryistina.net](https://tryistina.net)** &nbsp;·&nbsp; 🔒 *Source private (security)* &nbsp;·&nbsp; 🎯 *B2B: journalism schools, fact-checkers, newsrooms*
+🔗 **[istina.live](https://istina.live)** &nbsp;·&nbsp; 🔒 *Source private (security)* &nbsp;·&nbsp; 🎯 *B2B: journalism schools, fact-checkers, newsrooms*
 
 | Layer | Stack |
 |---|---|
