@@ -21,7 +21,7 @@ jobs:
           github_user_name: mufferio
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#00C566
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2300C566
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
