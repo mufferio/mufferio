@@ -75,7 +75,7 @@
       <text x="48" y="146" class="sans white" font-size="52" font-weight="800" letter-spacing="1">FAHAD S. KHAN</text>
     </g>
     <g class="fadeUp d2">
-      <text x="48" y="178" class="mono dim" font-size="15">HEAD OF DEVELOPMENT&#160;@&#160;<tspan fill="#e6edf3">HADIO</tspan>&#160;&#160;·&#160;&#160;FOUNDER&#160;@&#160;<tspan fill="#00C566">ISTINA AI</tspan>&#160;&#160;·&#160;&#160;CS &amp; FINANCE&#160;@&#160;UOFT</text>
+      <text x="48" y="178" class="mono dim" font-size="15">HEAD OF DEVELOPMENT&#160;@&#160;<tspan fill="#e6edf3">HADIO</tspan>&#160;<tspan fill="#F5A524" font-weight="700">— AT 20</tspan>&#160;&#160;·&#160;&#160;FOUNDER&#160;@&#160;<tspan fill="#00C566">ISTINA AI</tspan>&#160;&#160;·&#160;&#160;CS &amp; FINANCE&#160;@&#160;UOFT</text>
     </g>
 
     <!-- scanner demo -->
