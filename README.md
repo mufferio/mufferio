@@ -1,49 +1,49 @@
 <div align="center">
 
-# Fahad S. Khan
+<!-- ══════════════════════════ HERO: LIVE BIAS-SCANNER ══════════════════════════ -->
+<img src="assets/hero-scanner.svg" width="100%" alt="Fahad S. Khan — animated bias-scanner banner"/>
+
+<br/><br/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00C566&center=true&vCenter=true&width=560&lines=Full-time+Software+Engineer+%40+Hadio;Founder+%26+CEO+%40+ISTINA+AI;CS+%26+Finance+%40+University+of+Toronto" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=00C566&center=true&vCenter=true&width=720&lines=Head+of+Development+%40+Hadio+Friperie+Vintage;Founder+%26+CEO+%40+ISTINA+AI;CS+%26+Finance+%40+University+of+Toronto;Backend+%C2%B7+AI+pipelines+%C2%B7+Systems+%C2%B7+Firmware" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-`Backend services` &nbsp;•&nbsp; `AI pipelines` &nbsp;•&nbsp; `Data tooling` &nbsp;•&nbsp; `Systems / firmware`
-
-<br/>
-
-<a href="https://www.linkedin.com/in/fahad-sadiq-khan">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:khan.fsadiq05@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://tryistina.net">
-  <img src="https://img.shields.io/badge/ISTINA-00C566?style=for-the-badge&logo=eye&logoColor=white" alt="ISTINA"/></a>
+<a href="https://www.linkedin.com/in/fahad-sadiq-khan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+&nbsp;
+<a href="mailto:khan.fsadiq05@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+&nbsp;
+<a href="https://tryistina.net"><img src="https://img.shields.io/badge/ISTINA-00C566?style=for-the-badge&logo=eye&logoColor=white" alt="ISTINA"/></a>
 
 </div>
 
----
+<br/>
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="62%" valign="top">
 
-### 👋 About
+### 🧭 About
 
-I build production-grade systems across the stack — from REST APIs and AI pipelines to a PID control loop running on bare-metal firmware. My background spans **startup backend development**, **enterprise IT operations**, and a self-directed deep dive into **applied AI** and media-analysis systems.
+I build production-grade systems across the stack — REST APIs, AI/NLP pipelines, computer-vision tooling, and a PID control loop running on bare-metal firmware.
 
-Right now I'm building **ISTINA**, an AI platform for measuring bias and framing in news coverage.
+By day I run the **development department at Hadio Friperie Vintage**, shipping everything from internal dashboards to a YOLO/DINOv2 patch-detection pipeline. By night I'm building **ISTINA**, an AI platform that measures bias and framing in news coverage — sentence by sentence.
 
-> 🟢 **Open to software engineering roles & collaboration.**
+> 🟢 **Open to collaboration & interesting problems.**
 
 </td>
-<td width="40%" valign="top">
+<td width="38%" valign="top">
 
 ### ⚡ At a glance
 
 ```text
+💼  Head of Dev @ Hadio
+👁️  Founder @ ISTINA AI
 🎓  CS & Finance @ UofT
 🛠️  Go · Python · C · TS
-🤖  AI / NLP pipelines
+🤖  AI / NLP / CV pipelines
 🔌  ESP32 firmware (r/arduino)
 📍  Montréal, QC
 ```
@@ -52,84 +52,42 @@ Right now I'm building **ISTINA**, an AI platform for measuring bias and framing
 </tr>
 </table>
 
----
+<br/>
 
-### 🧰 Tech Stack
+<div align="center">
 
-**Languages**
+### 🧰 Arsenal
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Assembly](https://img.shields.io/badge/RISC--V_ASM-283272?style=flat-square&logo=riscv&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,go,c,cpp,java,cs,ts,js,react,vite,tailwind,html,css,fastapi,postgres,supabase,docker,vercel,git,postman,linux,unity,unreal,blender&perline=12" alt="Tech stack"/>
 
-**Backend**
+<br/>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=gin&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=json&logoColor=white)
+![RISC-V ASM](https://img.shields.io/badge/RISC--V_ASM-283272?style=flat-square&logo=riscv&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Data & Infra**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Fly.io](https://img.shields.io/badge/Fly.io-8B5CF6?style=flat-square&logo=flydotio&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Tools & Environments**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal_Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
-
-**AI & Automation**
-
-![LLM](https://img.shields.io/badge/LLM_Orchestration-FF6F61?style=flat-square&logo=openai&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![LLM Orchestration](https://img.shields.io/badge/LLM_Orchestration-FF6F61?style=flat-square&logo=openai&logoColor=white)
 ![Tavily](https://img.shields.io/badge/Tavily_Search-6C5CE7?style=flat-square&logo=duckduckgo&logoColor=white)
 
----
+</div>
 
-## <img src="https://img.shields.io/badge/👁-ISTINA-00C566?style=flat-square" height="22"/> &nbsp;Featured Project — *private*
+<br/>
 
-> ### *Signal in the noise.*
->
-> An AI platform that ingests RSS feeds and analyzes **geopolitical news** at the **sentence level** to surface rhetorical bias, narrative framing, and conflicting claims across coverage of the same event — then turns that analysis into shareable content.
+## <img src="https://img.shields.io/badge/👁-ISTINA-00C566?style=flat-square" height="22"/> &nbsp;Featured — *Signal in the noise.*
+
+> An AI platform that ingests RSS feeds and analyzes **geopolitical news at the sentence level** — surfacing rhetorical bias, narrative framing, and conflicting claims across coverage of the same event, then turning that analysis into shareable content.
 
 🔗 **[tryistina.net](https://tryistina.net)** &nbsp;·&nbsp; 🔒 *Source private (security)* &nbsp;·&nbsp; 🎯 *B2B: journalism schools, fact-checkers, newsrooms*
 
-<table>
-<tr>
-<th align="left">Layer</th>
-<th align="left">Stack</th>
-</tr>
-<tr><td>🖥️ &nbsp;Backend</td><td><code>FastAPI</code> · <code>Python</code> · <code>JWT auth</code> · Dockerized</td></tr>
-<tr><td>🎨 &nbsp;Frontend</td><td><code>React</code> · <code>TypeScript</code> · <code>Vite</code> · <code>TailwindCSS</code></td></tr>
-<tr><td>🗄️ &nbsp;Data & Auth</td><td><code>Supabase</code> · <code>PostgreSQL</code></td></tr>
-<tr><td>▲ &nbsp;Deploy</td><td>Backend on <code>Fly.io</code> · frontend on <code>Vercel</code></td></tr>
-<tr><td>🤖 &nbsp;Engine</td><td>LLM-driven sentence-level bias scoring · framing detection · multi-stage claim verification</td></tr>
-<tr><td>🔁 &nbsp;Pipeline</td><td><code>n8n</code>: RSS → scorer → analyzer → claim verifier → generator, with <code>Tavily</code> live search</td></tr>
-</table>
+| Layer | Stack |
+|---|---|
+| 🖥️ &nbsp;Backend | `FastAPI` · `Python` · `JWT auth` · Dockerized |
+| 🎨 &nbsp;Frontend | `React` · `TypeScript` · `Vite` · `TailwindCSS` |
+| 🗄️ &nbsp;Data & Auth | `Supabase` · `PostgreSQL` |
+| ▲ &nbsp;Deploy | Backend on `Fly.io` · frontend on `Vercel` |
+| 🤖 &nbsp;Engine | LLM-driven sentence-level bias scoring · framing detection · multi-stage claim verification |
+| 🔁 &nbsp;Pipeline | `n8n`: RSS → scorer → analyzer → claim verifier → generator, with `Tavily` live search |
 
 <details>
 <summary><b>🦀 The origin story → ISTINA v1 (Rust CLI)</b></summary>
@@ -149,7 +107,7 @@ The prototype the platform grew out of: a **Rust** command-line engine that inge
 
 </details>
 
----
+<br/>
 
 ## 📂 Public Projects
 
@@ -228,9 +186,12 @@ Companion project focused on persistence: a custom save-file format with an FSM-
 </tr>
 </table>
 
----
+<br/>
 
 ## 💼 Experience
+
+**Head of Development · Software Developer (Full-time)** · *Hadio Friperie Vintage* &nbsp;|&nbsp; `Present`
+Lead the development department for a vintage retail business — internal admin dashboards (React/Fastify/Supabase), an employee portal, a YOLO/DINOv2 computer-vision patch-detection pipeline, and automation across operations.
 
 **Software Developer** · *Concave Tech* &nbsp;|&nbsp; `05/2025 – 08/2025`
 Built a production-grade user-service backend in **Go** with RESTful APIs for secure user-data ingestion and validation. Implemented hashing + salting for credential storage, integrated **PostgreSQL** with indexed schemas for scalable concurrent queries, and containerized with **Docker** — cutting auth-related failures by **~40%**.
@@ -241,17 +202,32 @@ Led on-site technical operations during the Ontario Provincial Election, keeping
 **Software Engineer** · *Hawks Management & Solutions* &nbsp;|&nbsp; `06/2023 – 08/2023`
 Built a **Python**-based task delegation and tracking system with a cross-functional team. Automated assignment logic and real-time progress tracking that boosted weekly task throughput **10×**, refined through iterative testing and structured user feedback.
 
----
+<br/>
 
 <div align="center">
 
-### 📊 GitHub
+## 📊 GitHub
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=mufferio&show_icons=true&hide_border=true&title_color=00C566&icon_color=00C566&text_color=ffffff&bg_color=0d1117" alt="stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mufferio&layout=compact&hide_border=true&title_color=00C566&text_color=ffffff&bg_color=0d1117" alt="top langs" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mufferio&show_icons=true&hide_border=true&title_color=00C566&icon_color=00C566&text_color=ffffff&bg_color=0d1117&rank_icon=github" alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mufferio&layout=compact&hide_border=true&title_color=00C566&text_color=ffffff&bg_color=0d1117" alt="top langs"/>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=mufferio&hide_border=true&background=0d1117&ring=00C566&fire=00C566&currStreakLabel=00C566&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="streak"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mufferio&bg_color=0d1117&color=8b949e&line=00C566&point=ffffff&area=true&area_color=00C566&hide_border=true&custom_title=Contribution%20Signal" width="95%" alt="activity graph"/>
+
+<br/><br/>
+
+<!-- ══════════════════════════ SNAKE ══════════════════════════ -->
+<img src="https://raw.githubusercontent.com/mufferio/mufferio/output/github-snake-dark.svg" width="95%" alt="contribution snake"/>
 
 <br/><br/>
 
 🎓 **Honors BSc & BCom, Computer Science and Finance @ University of Toronto** &nbsp;·&nbsp; 2024–present
+
+<sub><code>$ exit 0</code> — thanks for scrolling.</sub>
 
 </div>
