@@ -243,21 +243,6 @@ Built a **Python**-based task delegation and tracking system with a cross-functi
 
 <div align="center">
 
-## 📊 GitHub
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mufferio&show_icons=true&hide_border=true&title_color=00C566&icon_color=00C566&text_color=ffffff&bg_color=0d1117&rank_icon=github" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mufferio&layout=compact&hide_border=true&title_color=00C566&text_color=ffffff&bg_color=0d1117" alt="top langs"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=mufferio&hide_border=true&background=0d1117&ring=00C566&fire=00C566&currStreakLabel=00C566&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mufferio&bg_color=0d1117&color=8b949e&line=00C566&point=ffffff&area=true&area_color=00C566&hide_border=true&custom_title=Contribution%20Signal" width="95%" alt="activity graph"/>
-
-<br/><br/>
-
 <!-- ══════════════════════════ SNAKE ══════════════════════════ -->
 <img src="https://raw.githubusercontent.com/mufferio/mufferio/output/github-snake-dark.svg" width="95%" alt="contribution snake"/>
 
