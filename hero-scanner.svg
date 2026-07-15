@@ -1,0 +1,132 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C566" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00C566" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#00C566" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="meterGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C566"/>
+      <stop offset="1" stop-color="#F5A524"/>
+    </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="48" y="60" width="0" height="30">
+        <animate attributeName="width" values="0;0;150;150" keyTimes="0;0.02;0.14;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="cardClip"><rect x="0" y="0" width="1000" height="360" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .dim   { fill: #8b949e; }
+    .green { fill: #00C566; }
+    .white { fill: #e6edf3; }
+    .fadeUp { opacity: 0; animation: fadeUp 0.9s cubic-bezier(.2,.7,.3,1) forwards; }
+    .d1 { animation-delay: 1.6s; }
+    .d2 { animation-delay: 2.1s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    .scan { animation: scan 12s linear infinite; }
+    @keyframes scan { 0% { transform: translateX(-220px); } 100% { transform: translateX(1220px); } }
+    .flag { opacity: 0; }
+    .f1 { animation: flagIn 12s linear infinite; animation-delay: 0s; }
+    .f2 { animation: flagIn2 12s linear infinite; }
+    .f3 { animation: flagIn3 12s linear infinite; }
+    @keyframes flagIn  { 0%,30% {opacity:0;} 33%,96% {opacity:1;} 100% {opacity:0;} }
+    @keyframes flagIn2 { 0%,44% {opacity:0;} 47%,96% {opacity:1;} 100% {opacity:0;} }
+    @keyframes flagIn3 { 0%,58% {opacity:0;} 61%,96% {opacity:1;} 100% {opacity:0;} }
+    .gridline { stroke: #1b2330; stroke-width: 1; }
+  </style>
+
+  <!-- card -->
+  <g clip-path="url(#cardClip)">
+    <rect width="1000" height="360" rx="16" fill="#0b0f14"/>
+    <!-- faint grid -->
+    <g>
+      <line class="gridline" x1="0" y1="90"  x2="1000" y2="90"/>
+      <line class="gridline" x1="0" y1="180" x2="1000" y2="180"/>
+      <line class="gridline" x1="0" y1="270" x2="1000" y2="270"/>
+      <line class="gridline" x1="250" y1="0" x2="250" y2="360"/>
+      <line class="gridline" x1="500" y1="0" x2="500" y2="360"/>
+      <line class="gridline" x1="750" y1="0" x2="750" y2="360"/>
+    </g>
+
+    <!-- sweeping scanline -->
+    <g class="scan">
+      <rect x="0" y="0" width="220" height="360" fill="url(#glow)" opacity="0.10"/>
+      <rect x="219" y="0" width="2" height="360" fill="#00C566" opacity="0.55"/>
+    </g>
+
+    <!-- terminal chrome -->
+    <circle cx="34" cy="30" r="6" fill="#ff5f56"/>
+    <circle cx="56" cy="30" r="6" fill="#ffbd2e"/>
+    <circle cx="78" cy="30" r="6" fill="#27c93f"/>
+    <text x="500" y="35" text-anchor="middle" class="mono dim" font-size="13">istina — bias-scanner — 80×24</text>
+
+    <!-- $ whoami -->
+    <text x="48" y="82" class="mono green" font-size="20" clip-path="url(#typeClip)">$&#160;whoami</text>
+    <rect class="cursor" x="152" y="66" width="10" height="20" fill="#00C566"/>
+
+    <!-- name -->
+    <g class="fadeUp d1">
+      <text x="48" y="146" class="sans white" font-size="52" font-weight="800" letter-spacing="1">FAHAD S. KHAN</text>
+    </g>
+    <g class="fadeUp d2">
+      <text x="48" y="178" class="mono dim" font-size="15">HEAD OF DEVELOPMENT&#160;@&#160;<tspan fill="#e6edf3">HADIO</tspan>&#160;&#160;·&#160;&#160;FOUNDER&#160;@&#160;<tspan fill="#00C566">ISTINA AI</tspan>&#160;&#160;·&#160;&#160;CS &amp; FINANCE&#160;@&#160;UOFT</text>
+    </g>
+
+    <!-- scanner demo -->
+    <text x="48" y="232" class="mono dim" font-size="13">&gt; analyzing headline…</text>
+
+    <!-- headline with flagged words -->
+    <g class="mono" font-size="19">
+      <text x="48" y="268" fill="#c9d1d9">Officials&#160;<tspan fill="#ff6b6b" font-weight="700">slammed</tspan>&#160;the&#160;<tspan fill="#F5A524" font-weight="700">controversial</tspan>&#160;plan&#160;as&#160;<tspan fill="#ff6b6b" font-weight="700">reckless</tspan>.</text>
+    </g>
+
+    <!-- flags -->
+    <g class="mono" font-size="11" font-weight="700">
+      <g class="flag f1">
+        <rect x="152" y="278" width="64" height="18" rx="4" fill="#ff6b6b" opacity="0.16"/>
+        <text x="184" y="291" text-anchor="middle" fill="#ff6b6b">LOADED</text>
+        <line x1="152" y1="274" x2="216" y2="274" stroke="#ff6b6b" stroke-width="2"/>
+      </g>
+      <g class="flag f2">
+        <rect x="266" y="278" width="76" height="18" rx="4" fill="#F5A524" opacity="0.16"/>
+        <text x="304" y="291" text-anchor="middle" fill="#F5A524">FRAMING</text>
+        <line x1="266" y1="274" x2="342" y2="274" stroke="#F5A524" stroke-width="2"/>
+      </g>
+      <g class="flag f3">
+        <rect x="472" y="278" width="72" height="18" rx="4" fill="#ff6b6b" opacity="0.16"/>
+        <text x="508" y="291" text-anchor="middle" fill="#ff6b6b">CHARGED</text>
+        <line x1="472" y1="274" x2="544" y2="274" stroke="#ff6b6b" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- bias meter -->
+    <g>
+      <text x="48" y="330" class="mono dim" font-size="13">BIAS INTENSITY</text>
+      <rect x="185" y="318" width="320" height="12" rx="6" fill="#1b2330"/>
+      <rect x="185" y="318" height="12" rx="6" fill="url(#meterGrad)">
+        <animate attributeName="width" values="0;0;238;238;0" keyTimes="0;0.25;0.7;0.97;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+      <text x="520" y="330" class="mono" font-size="14" font-weight="700" fill="#F5A524">74<tspan fill="#8b949e" font-weight="400">/100</tspan></text>
+    </g>
+
+    <!-- right column: signal -->
+    <g class="mono" font-size="12">
+      <text x="700" y="232" class="dim">SIGNAL IN THE NOISE</text>
+      <g stroke="#00C566" stroke-width="2" fill="none" opacity="0.8">
+        <path d="M700 300 q10 -40 20 0 q10 40 20 0 q10 -60 20 0 q10 60 20 0 q10 -30 20 0 q10 30 20 0 q10 -70 20 0 q10 70 20 0 q10 -20 20 0 q10 20 20 0 q10 -50 20 0 q10 50 20 0 q10 -35 20 0">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <line x1="700" y1="300" x2="960" y2="300" stroke="#1b2330" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- border -->
+  <rect x="0.5" y="0.5" width="999" height="359" rx="16" stroke="#1f2937"/>
+</svg>
