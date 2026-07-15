@@ -1,0 +1,142 @@
+<svg width="1000" height="1100" viewBox="0 0 1000 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00C566"/>
+      <stop offset="0.75" stop-color="#00C566"/>
+      <stop offset="1" stop-color="#F5A524"/>
+    </linearGradient>
+    <clipPath id="tlClip"><rect x="0" y="0" width="1000" height="1100" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .body  { fill: #c9d1d9; font-size: 15px; }
+    .title { fill: #e6edf3; font-size: 20px; font-weight: 800; letter-spacing: 1px; }
+    .kick  { fill: #8b949e; font-size: 15px; font-style: italic; }
+    .yr    { fill: #00C566; font-size: 13px; font-weight: 700; }
+
+    .spine {
+      stroke-dasharray: 950;
+      stroke-dashoffset: 950;
+      animation: draw 12s linear 0.3s forwards;
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .beat { opacity: 0; animation: reveal 0.8s cubic-bezier(.2,.7,.3,1) forwards; }
+    .b1 { animation-delay: 0.9s; }
+    .b2 { animation-delay: 2.8s; }
+    .b3 { animation-delay: 4.6s; }
+    .b4 { animation-delay: 6.5s; }
+    .b5 { animation-delay: 8.4s; }
+    .b6 { animation-delay: 10.3s; }
+    .b7 { animation-delay: 12.4s; }
+    @keyframes reveal { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: translateX(0); } }
+
+    .node { opacity: 0; animation: pop 0.5s cubic-bezier(.2,.7,.3,1) forwards; transform-box: fill-box; transform-origin: center; }
+    .n1 { animation-delay: 0.9s; }
+    .n2 { animation-delay: 2.8s; }
+    .n3 { animation-delay: 4.6s; }
+    .n4 { animation-delay: 6.5s; }
+    .n5 { animation-delay: 8.4s; }
+    .n6 { animation-delay: 10.3s; }
+    @keyframes pop { from { opacity: 0; transform: scale(0.3); } to { opacity: 1; transform: scale(1); } }
+
+    .ring {
+      transform-box: fill-box; transform-origin: center;
+      animation: ping 2.2s ease-out 11s infinite;
+      opacity: 0;
+    }
+    @keyframes ping {
+      0%   { opacity: 0.9; transform: scale(0.4); }
+      70%  { opacity: 0;   transform: scale(2.4); }
+      100% { opacity: 0;   transform: scale(2.4); }
+    }
+    .glowPulse { animation: glow 2.2s ease-in-out 11s infinite; }
+    @keyframes glow { 0%,100% { opacity: 0.14; } 50% { opacity: 0.30; } }
+  </style>
+
+  <!-- card -->
+  <g clip-path="url(#tlClip)">
+    <rect width="1000" height="1100" rx="16" fill="#0b0f14"/>
+    <line x1="500" y1="0" x2="500" y2="1100" stroke="#141b26" stroke-width="1"/>
+    <line x1="0" y1="550" x2="1000" y2="550" stroke="#141b26" stroke-width="1"/>
+
+    <!-- header -->
+    <text x="90" y="48" class="mono" font-size="14" fill="#8b949e">$ git log --reverse --oneline ./life</text>
+
+    <!-- spine -->
+    <line class="spine" x1="90" y1="70" x2="90" y2="1020" stroke="url(#spineGrad)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- ═══ BEAT 1 · 2023 · THE SPARK ═══ -->
+    <circle class="node n1" cx="90" cy="118" r="7" fill="#0b0f14" stroke="#00C566" stroke-width="3"/>
+    <g class="beat b1">
+      <rect x="24" y="106" width="44" height="22" rx="6" fill="#00C566" opacity="0.12"/>
+      <text x="46" y="121" text-anchor="middle" class="mono yr">2023</text>
+      <text x="130" y="124" class="sans title">THE SPARK</text>
+      <text x="130" y="152" class="sans body">A summer at Hawks, back home — my first real dev job. A task system that 10×'d a team's throughput.</text>
+      <text x="130" y="176" class="sans kick">The metric was nice. The addiction was the point.</text>
+    </g>
+
+    <!-- ═══ BEAT 2 · 2024 · THE DEEP END ═══ -->
+    <circle class="node n2" cx="90" cy="268" r="7" fill="#0b0f14" stroke="#00C566" stroke-width="3"/>
+    <g class="beat b2">
+      <rect x="24" y="256" width="44" height="22" rx="6" fill="#00C566" opacity="0.12"/>
+      <text x="46" y="271" text-anchor="middle" class="mono yr">2024</text>
+      <text x="130" y="274" class="sans title">THE DEEP END</text>
+      <text x="130" y="302" class="sans body">CS &amp; Finance at UofT. Lesson one: systems are won in the planning phase — every decision echoes for years.</text>
+      <text x="130" y="326" class="sans kick">Lesson two: nobody hands you an edge. You out-work everyone for it.</text>
+    </g>
+
+    <!-- ═══ BEAT 3 · 2025 · THE CRAFT ═══ -->
+    <circle class="node n3" cx="90" cy="418" r="7" fill="#0b0f14" stroke="#00C566" stroke-width="3"/>
+    <g class="beat b3">
+      <rect x="24" y="406" width="44" height="22" rx="6" fill="#00C566" opacity="0.12"/>
+      <text x="46" y="421" text-anchor="middle" class="mono yr">2025</text>
+      <text x="130" y="424" class="sans title">THE CRAFT</text>
+      <text x="130" y="452" class="sans body">Concave Tech, in first year. Production Go backends taught me security is a posture, not a feature —</text>
+      <text x="130" y="476" class="sans kick">and languages aren't rivals. They're tools forged for different jobs, all working together.</text>
+    </g>
+
+    <!-- ═══ BEAT 4 · 2025 · THE CONVICTION ═══ -->
+    <circle class="node n4" cx="90" cy="568" r="7" fill="#0b0f14" stroke="#00C566" stroke-width="3"/>
+    <g class="beat b4">
+      <rect x="24" y="556" width="44" height="22" rx="6" fill="#00C566" opacity="0.12"/>
+      <text x="46" y="571" text-anchor="middle" class="mono yr">2025</text>
+      <text x="130" y="574" class="sans title">THE CONVICTION <tspan fill="#00C566">— ISTINA is born</tspan></text>
+      <text x="130" y="602" class="sans body">One problem wouldn't leave me alone: we judge entire nations by what the internet shows us —</text>
+      <text x="130" y="626" class="sans body">not by the people themselves. So I compiled everything I believed into one app: <tspan fill="#00C566" font-weight="700">ISTINA</tspan>.</text>
+    </g>
+
+    <!-- ═══ BEAT 5 · 2026 · THE TURN ═══ -->
+    <circle class="node n5" cx="90" cy="718" r="7" fill="#0b0f14" stroke="#00C566" stroke-width="3"/>
+    <g class="beat b5">
+      <rect x="24" y="706" width="44" height="22" rx="6" fill="#00C566" opacity="0.12"/>
+      <text x="46" y="721" text-anchor="middle" class="mono yr">2026</text>
+      <text x="130" y="724" class="sans title">THE TURN</text>
+      <text x="130" y="752" class="sans body">Second year closes, life changes fast: Toronto → Montréal. New city, zero network.</text>
+      <text x="130" y="776" class="sans kick">So I led myself — and built one from scratch.</text>
+    </g>
+
+    <!-- ═══ BEAT 6 · 2026 · THE PAYOFF ═══ -->
+    <circle class="ring" cx="90" cy="868" r="10" fill="none" stroke="#F5A524" stroke-width="2"/>
+    <circle class="node n6" cx="90" cy="868" r="8" fill="#0b0f14" stroke="#F5A524" stroke-width="3.5"/>
+    <g class="beat b6">
+      <rect x="24" y="856" width="44" height="22" rx="6" fill="#F5A524" opacity="0.14"/>
+      <text x="46" y="871" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#F5A524">2026</text>
+      <text x="130" y="874" class="sans title">THE PAYOFF</text>
+      <text x="130" y="902" class="sans body">That network led to Hadio — a half-century-old business. They saw the journey, the portfolio, the shipped code.</text>
+      <rect class="glowPulse" x="122" y="920" width="640" height="42" rx="8" fill="#F5A524" opacity="0.14"/>
+      <text x="138" y="949" class="sans" font-size="24" font-weight="800" fill="#F5A524">HEAD OF DEVELOPMENT. AT 20. MID-DEGREE.</text>
+    </g>
+
+    <!-- ═══ FOOTER ═══ -->
+    <g class="beat b7">
+      <text x="90" y="1044" class="mono" font-size="14" fill="#8b949e">└─ the pattern:&#160;&#160;<tspan fill="#00C566">learn relentlessly</tspan> · <tspan fill="#00C566">build real things</tspan> · <tspan fill="#00C566">let the work open the doors</tspan></text>
+      <text x="90" y="1074" class="mono" font-size="14" fill="#e6edf3">↓&#160;&#160;everything below is the evidence</text>
+    </g>
+  </g>
+
+  <!-- border -->
+  <rect x="0.5" y="0.5" width="999" height="1099" rx="16" stroke="#1f2937"/>
+</svg>
