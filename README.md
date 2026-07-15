@@ -6,7 +6,7 @@
 <br/><br/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=00C566&center=true&vCenter=true&width=720&lines=Head+of+Development+%40+Hadio+Friperie+Vintage;Founder+%26+CEO+%40+ISTINA+AI;CS+%26+Finance+%40+University+of+Toronto;Backend+%C2%B7+AI+pipelines+%C2%B7+Systems+%C2%B7+Firmware" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=00C566&center=true&vCenter=true&width=760&lines=At+20%2C+I+became+Head+of+Development+at+Hadio.;Hired+full-time+%E2%80%94+in+the+middle+of+my+degree.;By+night%2C+I'm+building+ISTINA+AI.;The+story's+worth+the+scroll+%E2%86%93" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -21,13 +21,33 @@
 
 <br/>
 
+## ⚡ The journey
+
+> **Most people finish the degree, then get the job. I got the job in the middle of the degree.**
+
+**`2023` — The spark.** Before university even started, a summer at **Hawks** back home gave me my first taste of real development — a task system that 10×'d a team's weekly throughput. The metric was nice. The addiction was the point. I knew what I wanted to do.
+
+**`2024` — The deep end.** Started **CS & Finance at UofT** and learned the uncomfortable truths early: great systems are won or lost in the *planning* phase, every decision echoes years downstream, and in this field nobody hands you an edge — you out-work everyone for it.
+
+**`2025` — The craft.** In first year I landed at **Concave Tech**, building production Go backends. That's where the field opened up: security isn't a feature, it's a posture — and languages aren't rivals, they're tools forged for different jobs that all have to work together.
+
+**`2025` — The conviction.** Somewhere between shipping and studying, one problem wouldn't leave me alone: *we form our opinions of entire nations from what the internet shows us — not from the people themselves.* So I compiled everything I believed and everything I'd learned into one app. **That's how ISTINA was born.**
+
+**`2026` — The turn.** As second year closed, life changed fast and I had to change cities: Toronto → Montréal. New city, zero network. So I did what I'd been training for — I led myself, and built one from scratch.
+
+**`2026` — The payoff.** That network connected me to **Hadio**, a half-century-old business. They looked at the journey, the portfolio, the shipped code — and hired me full-time to run their development department. **Head of Development. At 20. Mid-degree.**
+
+The pattern behind all of it: learn relentlessly, build real things, and let the work open the doors. **Everything below is the evidence.** ↓
+
+<br/>
+
 <table>
 <tr>
 <td width="62%" valign="top">
 
-### 🧭 About
+### 🧭 What I actually build
 
-I build production-grade systems across the stack — REST APIs, AI/NLP pipelines, computer-vision tooling, and a PID control loop running on bare-metal firmware.
+Production-grade systems across the stack — REST APIs, AI/NLP pipelines, computer-vision tooling, and a PID control loop running on bare-metal firmware.
 
 By day I run the **development department at Hadio Friperie Vintage**, shipping everything from internal dashboards to a YOLO/DINOv2 patch-detection pipeline. By night I'm building **ISTINA**, an AI platform that measures bias and framing in news coverage — sentence by sentence.
 
@@ -39,7 +59,7 @@ By day I run the **development department at Hadio Friperie Vintage**, shipping 
 ### ⚡ At a glance
 
 ```text
-💼  Head of Dev @ Hadio
+💼  Head of Dev @ Hadio — at 20
 👁️  Founder @ ISTINA AI
 🎓  CS & Finance @ UofT
 🛠️  Go · Python · C · TS
@@ -190,8 +210,8 @@ Companion project focused on persistence: a custom save-file format with an FSM-
 
 ## 💼 Experience
 
-**Head of Development · Software Developer (Full-time)** · *Hadio Friperie Vintage* &nbsp;|&nbsp; `Present`
-Lead the development department for a vintage retail business — internal admin dashboards (React/Fastify/Supabase), an employee portal, a YOLO/DINOv2 computer-vision patch-detection pipeline, and automation across operations.
+**Head of Development (Full-time)** · *Hadio Friperie Vintage* &nbsp;|&nbsp; `Present`
+Started as a contractor; hired full-time to lead the development department — **at 20, mid-degree**. Own the entire technical footprint of a retail business: internal admin dashboards (React/Fastify/Supabase), an employee portal, a YOLO/DINOv2 computer-vision patch-detection pipeline, and automation across operations.
 
 **Software Developer** · *Concave Tech* &nbsp;|&nbsp; `05/2025 – 08/2025`
 Built a production-grade user-service backend in **Go** with RESTful APIs for secure user-data ingestion and validation. Implemented hashing + salting for credential storage, integrated **PostgreSQL** with indexed schemas for scalable concurrent queries, and containerized with **Docker** — cutting auth-related failures by **~40%**.
