@@ -21,23 +21,40 @@
 
 <br/>
 
+<div align="center">
+
 ## ⚡ The journey
 
 > **Most people finish the degree, then get the job. I got the job in the middle of the degree.**
 
-**`2023` — The spark.** Before university even started, a summer at **Hawks** back home gave me my first taste of real development — a task system that 10×'d a team's weekly throughput. The metric was nice. The addiction was the point. I knew what I wanted to do.
+<sub>⏳ <b>The 60-second origin story is below.</b> In a hurry? <a href="#-arsenal"><b>Skip straight to the portfolio →</b></a></sub>
+
+<br/><br/>
+
+<img src="assets/journey-timeline.svg" width="100%" alt="Animated timeline: 2023 first internship at Hawks → 2024 CS & Finance at UofT → 2025 Concave Tech and the birth of ISTINA → 2026 Toronto to Montréal, then hired as Head of Development at Hadio at 20, mid-degree."/>
+
+</div>
+
+<details>
+<summary><sub>📜 Prefer plain text? Read the journey here.</sub></summary>
+
+<br/>
+
+**`2023` — The spark.** Before university even started, a summer at **Hawks** back home gave me my first taste of real development — a task system that 10×'d a team's weekly throughput. The metric was nice. The addiction was the point.
 
 **`2024` — The deep end.** Started **CS & Finance at UofT** and learned the uncomfortable truths early: great systems are won or lost in the *planning* phase, every decision echoes years downstream, and in this field nobody hands you an edge — you out-work everyone for it.
 
 **`2025` — The craft.** In first year I landed at **Concave Tech**, building production Go backends. That's where the field opened up: security isn't a feature, it's a posture — and languages aren't rivals, they're tools forged for different jobs that all have to work together.
 
-**`2025` — The conviction.** Somewhere between shipping and studying, one problem wouldn't leave me alone: *we form our opinions of entire nations from what the internet shows us — not from the people themselves.* So I compiled everything I believed and everything I'd learned into one app. **That's how ISTINA was born.**
+**`2025` — The conviction.** One problem wouldn't leave me alone: *we form our opinions of entire nations from what the internet shows us — not from the people themselves.* So I compiled everything I believed and everything I'd learned into one app. **That's how ISTINA was born.**
 
-**`2026` — The turn.** As second year closed, life changed fast and I had to change cities: Toronto → Montréal. New city, zero network. So I did what I'd been training for — I led myself, and built one from scratch.
+**`2026` — The turn.** As second year closed, life changed fast and I had to change cities: Toronto → Montréal. New city, zero network. So I led myself — and built one from scratch.
 
 **`2026` — The payoff.** That network connected me to **Hadio**, a half-century-old business. They looked at the journey, the portfolio, the shipped code — and hired me full-time to run their development department. **Head of Development. At 20. Mid-degree.**
 
-The pattern behind all of it: learn relentlessly, build real things, and let the work open the doors. **Everything below is the evidence.** ↓
+The pattern: learn relentlessly, build real things, let the work open the doors.
+
+</details>
 
 <br/>
 
