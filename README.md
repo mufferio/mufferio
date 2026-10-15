@@ -96,7 +96,7 @@ Most of what I build sits close to revenue: finding leads, reaching them, and tu
 
 ### 👁️ ISTINA &nbsp;<sub>2025 to 2026</sub>
 
-An LLM platform I founded that scored geopolitical news for bias and framing sentence by sentence, and compared how different outlets covered the same event. It launched with Stripe subscriptions and an n8n content pipeline that ranked articles, ran the analysis and claim checks, and drafted posts for each platform.
+An LLM platform I founded that scored geopolitical news for bias and framing sentence by sentence, and compared how different outlets covered the same event. It launched with Stripe subscriptions. An n8n pipeline ranked articles, ran the analysis and claim checks, and generated TikTok carousels, and a set of Claude skills drafted posts for X, LinkedIn, Substack and Reddit.
 
 I paused it in 2026. The product worked, but I couldn't solve distribution in a niche the big platforms restrict, and that lesson is a big part of why I care about go-to-market work.
 
@@ -108,11 +108,17 @@ I paused it in 2026. The product worked, but I couldn't solve distribution in a 
 | Frontend | `React` · `TypeScript` · `Vite` · `Tailwind` on `Vercel` |
 | Data | `Supabase` · `PostgreSQL` |
 | Engine | Sentence-level LLM bias scoring, framing detection, multi-stage claim verification |
-| Pipeline | `n8n` with `Tavily` search: ranker → analyzer → claim verifier → post generator |
+| Pipeline | `n8n` with `Tavily` search: ranker → analyzer → claim verifier → carousel generator |
 
 <sub>Started as a Rust CLI prototype that ingested RSS feeds and compared narratives across sources.</sub>
 
-<!-- Ragebait-Skill: add a card here once the repo is public -->
+### 🧪 Ragebait-Skill &nbsp;<sub>pre-release</sub>
+
+A Claude Code skill that writes modern short-form ragebait replies, built from a research pass that turned 41 creator posts into an 89-method library. It has a one-time setup and three intensity modes, and it's in final testing before the repo goes public. The launch post passed 15K impressions on LinkedIn.
+
+<!-- Once the repo is public: link the heading to github.com/mufferio/Ragebait-Skill and drop "pre-release" -->
+
+<br/>
 
 ### 🗂️ Public repos
 
