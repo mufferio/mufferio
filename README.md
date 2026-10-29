@@ -23,17 +23,19 @@
 
 ## 🧭 What I do
 
-I'm the only developer at **[Hadio](https://hadio.com)**, a Montréal vintage retailer and patch wholesaler in business since 1991. I joined as a contractor in June 2026 and was hired full time a month later to run development, at 20 and partway through a CS & Finance degree.
+I'm Head of Development at **[Hadio](https://hadio.com)**, a Montréal vintage retailer and patch wholesaler in business since 1991. I run the company's whole technical side and plan the roadmap directly with the owner.
 
-Most of what I build sits close to revenue: finding leads, reaching them, and turning them into orders. I work AI-first with Claude Code and ship to production most weeks.
+I joined as a contractor in June 2026 and was hired full time to lead development a month later, at 20 and partway through a CS & Finance degree.
+
+Most of what I build sits close to revenue: finding wholesale leads, reaching them, and turning them into orders. I work AI-first with Claude Code and ship to production most weeks.
 
 <table>
 <tr>
 <td width="64%" valign="top">
 
-### 🔨 Recent work at Hadio
+### 🔨 What I've shipped at Hadio
 
-<sub>Company code, so the source is private. Happy to walk through any of it.</sub>
+<sub>Designed, built and run by me. Company code, so the source is private. Happy to walk through any of it.</sub>
 
 - **Lead engine.** An 8-stage Python pipeline that pulls local retailers from OpenStreetMap and Overture data, crawls their websites, and scores each one with an LLM judge on the Claude API. Runs as a background worker on Render, with a map-based queue for reviewing leads.
 - **Outbound CRM.** Turns approved leads into personalized bilingual (EN/FR) direct-mail letters with a QR code to the wholesale store, and tracks each lead from sent to converted.
@@ -48,7 +50,7 @@ Most of what I build sits close to revenue: finding leads, reaching them, and tu
 ### ⚡ At a glance
 
 ```text
-💼  Head of Dev @ Hadio
+💼  Head of Development @ Hadio
 🛠️  Python · TypeScript · SQL · Go
 🤖  LLM pipelines · CV · automation
 ⚙️  Claude Code, every day
@@ -62,6 +64,7 @@ Most of what I build sits close to revenue: finding leads, reaching them, and tu
 
 ### 🧠 How I work
 
+- **Own the roadmap.** I set priorities with the owner and work them top to bottom, starting with whatever is costing the business most.
 - **Plan before code.** Every feature starts as an ordered prompt book: scope, model and checks for each step, run in Claude Code.
 - **Custom tooling.** My own Claude Code skills and verifier subagents keep large changes reviewable, and nothing merges until tests and the typecheck pass.
 - **Small and shipped.** I'd rather put a working version in front of users this week than a bigger one next month.
@@ -185,7 +188,7 @@ Airline sim that loads tens of thousands of CSV rows into a typed domain model w
 ## 💼 Experience
 
 **Head of Development** · *Hadio Friperie Vintage* &nbsp;|&nbsp; `06/2026 – Present`
-Joined as a contractor and went full time in 07/2026. I own the whole technical side of the business: the website and wholesale store, the lead engine and outbound CRM, the computer-vision register, internal dashboards, the employee and hiring portals, and the production Postgres database behind all of it.
+Lead development for the business and plan the roadmap directly with the owner. Joined as a contractor and was hired full time in 07/2026 to run the department. Own the architecture and delivery of every system Hadio runs on: the website and B2B wholesale store, the lead engine and outbound CRM, the computer-vision register, internal dashboards, the employee and hiring portals, and the production Postgres database behind them.
 
 **Software Developer** · *Concave Tech* &nbsp;|&nbsp; `05/2025 – 08/2025`
 Built a production user-service backend in **Go** with REST APIs for secure ingestion and validation, salted and hashed credential storage, and indexed **PostgreSQL** schemas. Containerized with **Docker** and cut auth-related failures by about **40%**.
